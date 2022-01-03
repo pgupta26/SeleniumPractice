@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Freight Club Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="core.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="testscripts.TestLoginTestNG">
+        <methods>
+          <include name="testLogin"/>
+          <include name="initializeBrowser"/>
+          <include name="quickBrowser"/>
+        </methods>
+      </class> <!-- testscripts.TestLoginTestNG -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Freight Club Suite] -->
