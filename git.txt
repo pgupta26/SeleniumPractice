@@ -1,0 +1,24 @@
+git - is a version control software which maintains change history.
+
+
+github - Is a website which allows us to store repositories where we can store our project files.
+
+To push the code -
+git init
+git remote add origin -----Remote Repo Path---------
+git add .
+git commit -m "Message"
+git push origin master(branch)
+
+To take latest code -
+git pull origin master
+
+as qa we push code at the end of the day on qa branch
+our leads review the code of qa branch what ever we pushed and merge in the master branch.
+and next day we pull the code from master branch
+
+difference b/w git ad github
+
+two ways
+we the help of eclipse egit plugin.
+by using command line.
