@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <title>TestNG Report</title>
@@ -7,16 +7,22 @@
 </head>
 <body>
 <table>
-<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Freight Club Suite</th></tr>
-<tr><td><a href="#t0">Login Test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">18,766</td><td></td><td></td></tr>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Freight Club Suite</th></tr>
+<tr><td><a href="#t0">Test Login</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">9,789</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test Add Locations</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">8,287</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Test Quick Quote</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,244</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">41,320</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Freight Club Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testscripts.TestLoginTestNG</td><td><a href="#m0">testLogin</a></td><td rowspan="1">1641019939136</td><td rowspan="1">9352</td></tr><tr><th colspan="4">Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testscripts.TestAddLocationTestNG</td><td><a href="#m1">testAddLocation</a></td><td rowspan="1">1641019949156</td><td rowspan="1">4420</td></tr><tr class="passedodd"><td rowspan="1">testscripts.TestQuickQuoteTestNG</td><td><a href="#m2">testQuickQuote</a></td><td rowspan="1">1641019953577</td><td rowspan="1">4305</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Freight Club Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test Login &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testscripts.TestLoginTestNG</td><td><a href="#m0">testLogin</a></td><td rowspan="1">1641538301639</td><td rowspan="1">9205</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test Add Locations &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testscripts.TestAddLocationTestNG</td><td><a href="#m1">testAddLocation</a></td><td rowspan="1">1641538311449</td><td rowspan="1">8280</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Test Quick Quote &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testscripts.TestQuickQuoteTestNG</td><td><a href="#m2">testQuickQuote</a></td><td rowspan="1">1641538319757</td><td rowspan="1">23238</td></tr></tbody>
 </table>
-<h2>Login Test</h2><h3 id="m0">testscripts.TestLoginTestNG#testLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Order Management - Freight Club1] but found [Order Management - Freight Club]
+<h2>Test Login</h2><h3 id="m0">testscripts.TestLoginTestNG#testLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Order Management - Freight Club1] but found [Order Management - Freight Club]
 	at testscripts.TestLoginTestNG.testLogin(TestLoginTestNG.java:31)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testscripts.TestAddLocationTestNG#testAddLocation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testscripts.TestQuickQuoteTestNG#testQuickQuote</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test Add Locations</h2><h3 id="m1">testscripts.TestAddLocationTestNG#testAddLocation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test Quick Quote</h2><h3 id="m2">testscripts.TestQuickQuoteTestNG#testQuickQuote</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

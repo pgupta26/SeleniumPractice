@@ -13,6 +13,16 @@ git push origin master(branch)
 To take latest code -
 git pull origin master
 
+new branch - 
+git breach name
+
+switch to branch -
+git checkout name
+
+how to view changed files -
+git status
+
+
 as qa we push code at the end of the day on qa branch
 our leads review the code of qa branch what ever we pushed and merge in the master branch.
 and next day we pull the code from master branch
@@ -22,3 +32,102 @@ difference b/w git ad github
 two ways
 we the help of eclipse egit plugin.
 by using command line.
+
+how to start jenking
+java -jar jenkins.war
+
+default port
+:8080
+ip
+127.0.0.1
+
+execute windows batch command  - to run
+
+to schedule
+build periodic 
+sechudeler
+min hour (day of month)DOM  month  (day of weaK)DOW
+
+
+HOW TO CREATE JOB
+1. Click on New Item
+2. Enter name of the job then select free style project
+3. select execute windows batch command under build section 
+4. Click on apply and save.
+ 
+fiori is web based supplier chain  managememt portal
+
+in this we have different modules like
+create new supplier
+update supplier
+delete supplier
+search suplier
+
+once suplier is set up than we have module to upload invoices which we sent to different teams
+
+after that user can login as admin and can recieve and rejects invoice and also can raise concern.
+
+we have automated all modules using selenium with java
+
+and for this we follow selenium frame structure
+we use data driven frame structure so we use pom than testng than maven for dependency management
+than github for code collebration than jenking to run nite batch.
+and we also use db utility to preform database operations and excel utility to perform excel operations and so on.
+
+jenkins
+used to create new job
+used to schdule test
+used to run test manually 3 days before release
+
+once card comes in ready for test
+than i take handoff from ba and dev
+than i change its status to in test
+
+we also do regressiong testing
+
+as i am working in bharti airtel for past 4.5 years
+so now i want to learn some new tools and technologies
+so that i can grow my self in automation field
+
+we follows agile methadology
+agile methadology is a practise that promotes continous itration of development and testing throught out the software development.
+in our organisation we use scrum frame work.
+ 
+
+click on new item
+select executes windows batch command as build setup.
+java -cp/bin/lib/path of testng.xml file.
+than click on save.
+
+clean to clean the resources
+default is use for execution,deployment,reporting
+site it is for documentation
+
+MAVEN 
+project management
+src folder
+it contains
+main folder
+test folder
+
+java folder - used to keep our all test srcipt
+resorce folder  -we used to keep our lib files.
+
+i get requirement in the form of stories from ba
+then i go throught the web application manually and look out for the caese need to automate
+than develop test case
+than excetues those test cases
+than annalys reports
+lock the defect and trace  the defect
+then retest the fixed defect
+for all these purpose i have use some tools like
+testng which is a automtated testing framework
+maven which is used for dependency management
+jenking used to schdule test cases
+
+than i have some meetings like
+sprint planning metting daily standups sprint reviews
+
+
+
+

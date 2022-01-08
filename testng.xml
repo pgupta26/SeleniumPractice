@@ -3,14 +3,25 @@
 <suite name="Freight Club Suite">
 
  <listeners>
+ 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="core.CustomListeners" />
 </listeners>
 	
-  <test  name="Login Test">
+  <test  name="Test Login">
     <classes>
       <class name="testscripts.TestLoginTestNG"/>
+    </classes>
+  </test> 
+   
+   <test  name="Test Add Locations">
+    <classes>
       <class name="testscripts.TestAddLocationTestNG"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test Quick Quote">
+    <classes>
       <class name="testscripts.TestQuickQuoteTestNG"/>
     </classes>
-  </test>  
+  </test> 
 </suite> 
